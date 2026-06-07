@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation Grand Oral SPC - Calendly</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 30px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .header-container {
+            max-width: 1000px;
+            margin: 0 auto 25px auto;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            border-left: 6px solid #6851ff; /* Violet Calendly */
+        }
+        h1 {
+            font-size: 1.8rem;
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: #6851ff;
+        }
+        .warning-text {
+            background-color: #fef7e0;
+            border: 1px solid #feefc3;
+            color: #b06000;
+            padding: 12px 15px;
+            border-radius: 4px;
+            font-weight: 600;
+            margin: 0;
+            display: inline-block;
+        }
+        .widget-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #ffffff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            border-radius: 8px;
+            overflow: hidden;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-container">
+        <h1>Plage horaire disponible pour l'entrainement au grand oral de SPC le jeudi 18.06.</h1>
+        <p class="warning-text">⚠️ Merci de ne réserver un créneau que si vous êtes sûr de venir.</p>
+    </div>
+
+    <div class="widget-container">
+        
+        <div class="calendly-inline-widget" data-url="https://calendly.com/bonnalc/new-meeting?month=2026-06&date=2026-06-18" style="min-width:320px;height:700px;"></div>
+        
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        
+    </div>
+
+</body>
+</html>
